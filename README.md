@@ -1,4 +1,4 @@
-# Django Project
+# Django Hello World Project
 
 This is a Django project created by Krishnendu Bhowmick.
 
