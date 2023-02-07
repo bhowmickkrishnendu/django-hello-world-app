@@ -1,7 +1,10 @@
 # Django Project
 
 This is a Django project created by Krishnendu Bhowmick.
+
 This will Print Hostname, Server IP and current time.
+
+![alt text](https://github.com/bhowmickkrishnendu/django-hello-world-app/blob/master/Screenshot.jpg?raw=true)
 
 ## Installation
 
