@@ -1,0 +1,22 @@
+<!-- This is the HTML code for the web page. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Hello World</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="jumbotron text-center">
+      <h1 class="display-4">{{ message }}</h1>
+      <p class="lead">This Django test page created by Krishnendu Bhowmick</p>
+      <hr class="my-4">
+      <p class="text-muted">Server IP: {{ ip }}</p>
+      <p class="text-muted">Hostname: {{ hostname }}</p>
+      <p class="text-muted">Current time: {{ current_time }}</p>
+    </div>
+  </div>
+</body>
+</html>
