@@ -1,22 +1,63 @@
-<!-- This is the HTML code for the web page. -->
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <title>Hello World</title>
-</head>
-<body>
-  <div class="container mt-5">
-    <div class="jumbotron text-center">
-      <h1 class="display-4">{{ message }}</h1>
-      <p class="lead">This Django test page created by Krishnendu Bhowmick</p>
-      <hr class="my-4">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      }
+      h1 {
+        font-size: 3em;
+        font-weight: 900;
+        color: #2c3e50;
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: center;
+        text-shadow: 2px 2px 0 #ecf0f1, 4px 4px 0 #bdc3c7, 6px 6px 0 #95a5a6;
+      }
+      p {
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #34495e;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+      hr {
+        border: 0;
+        height: 1px;
+        background-color: #e0e0e0;
+        margin: 30px 0;
+      }
+      .text-muted {
+        font-size: 1em;
+        font-weight: 400;
+        color: #777;
+        margin-bottom: 5px;
+        line-height: 1.5;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>{{ message }}</h1>
+      <p>This Django test page created by Krishnendu Bhowmick.</p>
+      <hr>
       <p class="text-muted">Server IP: {{ ip }}</p>
       <p class="text-muted">Hostname: {{ hostname }}</p>
       <p class="text-muted">Current time: {{ current_time }}</p>
     </div>
-  </div>
-</body>
+  </body>
 </html>
